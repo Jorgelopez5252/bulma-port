@@ -1,64 +1,80 @@
-#titleHeader{
-    color: white;
+#titleHeader {
+  color: white;
 }
 
-html{
-    background-color: gainsboro;
+html {
+  background-color: gainsboro;
 }
 
 .parallax {
-    /* The image used */
-    background-image: url("https://cdn.gamedevmarket.net/wp-content/uploads/20191203192024/Desert.png");
-  
-    /* Set a specific height */
-    min-height: 500px; 
-  
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
+  /* The image used */
+  background-image: url("https://cdn.gamedevmarket.net/wp-content/uploads/20191203192024/Desert.png");
 
-  h1 {
-    font-size: 45px;
-    text-align: center;
-    font-family: 'Poppins', sans-serif;
-  }
+  /* Set a specific height */
+  min-height: 500px;
 
-  h2 {
-    font-size: 20px;
-    text-align: center;
-  }
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 
-  p {
-    font-family: 'Poppins', sans-serif;
-  }
+h1 {
+  font-size: 45px;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
 
-  #profilePic {  
-    max-width: 100%;
-    width: 518px;
-  }
+h2 {
+  font-size: 20px;
+  text-align: center;
+}
 
-  #headerOne{
-    margin-top: 25px;
-  }
+p {
+  font-family: 'Poppins', sans-serif;
+}
 
-  #knownTech {
-    margin-top: 50px;
-  }
+#profilePic {
+  max-width: 100%;
+  width: 518px;
+}
 
-  .techImages {
-    padding: 25px;
-    width: 50%;
-    display: flex;
-    margin: auto;
-  }
+#headerOne {
+  margin-top: 25px;
+}
+
+#knownTech {
+  margin-top: 50px;
+}
+
+.techImages {
+  padding: 25px;
+  width: 50%;
+  display: flex;
+  margin: auto;
+}
 
 
-  .contactImages {
-    padding: 15px;
-    width: 50%;
-    display: flex;
-    margin: auto;
+.contactImages {
+  padding: 15px;
+  width: 50%;
+  display: flex;
+  margin: auto;
+}
+
+li {
+  font-weight: bold;
+}
+
+@media only screen and (max-width: 600px) {
+  .hide {
+    display: none;
   }
+}
+
+@media only screen and (min-width: 450px) {
+  hr {
+    display: none;
+  }
+}
