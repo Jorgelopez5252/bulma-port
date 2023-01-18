@@ -54,3 +54,11 @@ html{
     display: flex;
     margin: auto;
   }
+
+
+  .contactImages {
+    padding: 15px;
+    width: 50%;
+    display: flex;
+    margin: auto;
+  }
