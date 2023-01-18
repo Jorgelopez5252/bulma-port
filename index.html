@@ -1,266 +1,241 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Jorge Lopez Portfolio</title>
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css"
-    />
-    <link rel="stylesheet" type="text/css" href="styles.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
-      rel="stylesheet"
-    />
-    <script defer src="script.js"></script>
-  </head>
 
-  <body>
-    <!-- Navbar -->
-    <nav class="navbar" role="navigation" aria-label="main navigation">
-      <div class="navbar-brand">
-        <a
-          class="navbar-item"
-          target="_blank"
-          href="https://github.com/Jorgelopez5252"
-        >
-          <img
-            src="https://github.githubassets.com/images/modules/logos_page/GitHub-Logo.png"
-            width="auto"
-            height="auto"
-          />
-        </a>
-        <a
-          class="navbar-item"
-          target="_blank"
-          href="https://www.linkedin.com/in/jorge-lopez-895307194/"
-        >
-          <img
-            src="https://www.fpsa.org/wp-content/uploads/linkedin-logo-copy.png"
-            width="auto"
-            height="auto"
-          />
-        </a>
-        <a
-          role="button"
-          class="navbar-burger"
-          aria-label="menu"
-          aria-expanded="false"
-          data-target="navbarBasicExample"
-        >
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Jorge Lopez Portfolio</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css" />
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet" />
+  <script defer src="script.js"></script>
+</head>
+
+<body>
+ <!-- Navbar -->
+ <nav class="navbar" role="navigation" aria-label="main navigation">
+  <div class="navbar-brand">
+      <a class="navbar-item" target="_blank" href="https://github.com/Jorgelopez5252">
+          <img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Logo.png" width="auto"
+              height="auto">
+      </a>
+      <a class="navbar-item" target="_blank" href="https://www.linkedin.com/in/jorge-lopez-895307194/">
+          <img src="https://www.fpsa.org/wp-content/uploads/linkedin-logo-copy.png" width="auto" height="auto">
+      </a>
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"
+          data-target="navbarBasicExample">
           <span aria-hidden="true"></span>
           <span aria-hidden="true"></span>
           <span aria-hidden="true"></span>
-        </a>
+      </a>
+  </div>
+
+  <div id="navbarBasicExample" class="navbar-menu">
+      <div class="navbar-start">
+          <a href="/index.html" class="navbar-item">
+              Home
+          </a>
+          <a href="/projects.html" class="navbar-item">
+              Projects
+          </a>
+          <a class="navbar-item" href="/2023 Resume.pdf" download="JorgeLopez Resume">Download Resume</a>
       </div>
 
-      <div id="navbarBasicExample" class="navbar-menu">
-        <div class="navbar-start">
-          <a class="navbar-item"> Home </a>
 
-          <div class="navbar-item has-dropdown is-hoverable">
-            <a class="navbar-link"> More </a>
+  </div>
+</nav>
+<!-- Navbar -->
 
-            <div class="navbar-dropdown">
-              <a href="/projects.html" class="navbar-item"> Projects </a>
-              <a class="navbar-item"> Contact </a>
-              <a class="navbar-item"> Resume PDF </a>
-            </div>
-          </div>
+  <div class="section">
+    <!-- content -->
+
+    <div class="container">
+      <section class="hero is-warning">
+        <div class="hero-body">
+          <p class="title">Personal Portfolio</p>
+          <p class="subtitle">Web Developer</p>
         </div>
-      </div>
-    </nav>
-    <!-- Navbar -->
-
-    <div class="section">
-      <!-- content -->
-
-      <div class="container">
-        <section class="hero is-warning">
-          <div class="hero-body">
-            <p class="title">Personal Portfolio</p>
-            <p class="subtitle">Web Developer</p>
+      </section>
+      <div class="box">
+        <div class="columns">
+          <div class="column">
+            <img id="profilePic" src="images/profilePic.jpeg" />
           </div>
-        </section>
-        <div class="box">
-          <div class="columns">
-            <div class="column">
-              <img id="profilePic" src="images/profilePic.jpeg" />
-            </div>
-            <div class="column">
-              <h1 id="headerOne">Jorge A Lopez</h1>
-              <br />
-              <p>
-                Solution-driven web developer adept at contributing to highly
-                collaborative and fast paced work environments. Love to
-                collaborate in group settings as my ability to communicate and
-                pass information in a friendly and understanding way always
-                comes helpful! I am reliable and committed to meet all deadlines
-                and request. I have worked in various projects from small local
-                restaurant menus to bigger projects requests from Coke, Pepsi,
-                NFL, Buffalo Wild Wings, Starbucks, Venmo, PayPal to name a few
-                and hopefully more to come.
-              </p>
+          <div class="column">
+            <h1 id="headerOne">Jorge A Lopez</h1>
+            <h2>Located in Mesa, Arizona</h2>
+            <br />
+            <p>
+              Solution-driven web developer adept at contributing to highly
+              collaborative and fast paced work environments. Love to
+              collaborate in group settings as my ability to communicate and
+              pass information in a friendly and understanding way always
+              comes helpful! I am reliable and committed to meet all deadlines
+              and request. I have worked in various projects from small local
+              restaurant menus to bigger projects requests from Coke, Pepsi,
+              NFL, Buffalo Wild Wings, Starbucks, Venmo, PayPal to name a few
+              and hopefully more to come.
+            </p>
 
-              <article id="knownTech" class="message is-warning">
-                <div class="message-header">
-                  <p>Known Languages</p>
-                </div>
-                <div class="message-body">
-                  <div class="columns">
-                    <div class="column">
-                      <ul>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>Javascript</li>
-                        <li>JQuery</li>
-                        <li>BootStrap</li>
-                        <li>Zurb Foundation</li>
-                        <li>Bulma.io</li>
-                        <li>Node.js</li>
-                        <li></li>
-                      </ul>
-                    </div>
-                    <div class="column">
-                      <ul>
-                        <li>MySQL</li>
-                        <li>REST API</li>
-                        <li>Npm</li>
-                        <li>Express.js</li>
-                        <li>C#</li>
-                        <li>VUE.js</li>
-                        <li>React.js</li>
-                        <li>Bulma.io</li>
-                      </ul>
-                    </div>
+            <article id="knownTech" class="message is-warning">
+              <div class="message-header">
+                <p>Known Languages</p>
+              </div>
+              <div class="message-body">
+                <div class="columns">
+                  <div class="column">
+                    <ul>
+                      <li>HTML</li>
+                      <li>CSS</li>
+                      <li>Javascript</li>
+                      <li>JQuery</li>
+                      <li>BootStrap</li>
+                      <li>Zurb Foundation</li>
+                      <li>Bulma.io</li>
+                      <li>Node.js</li>
+                      <li></li>
+                    </ul>
+                  </div>
+                  <div class="column">
+                    <ul>
+                      <li>MySQL</li>
+                      <li>REST API</li>
+                      <li>Npm</li>
+                      <li>Express.js</li>
+                      <li>C#</li>
+                      <li>VUE.js</li>
+                      <li>React.js</li>
+                      <li>Bulma.io</li>
+                    </ul>
                   </div>
                 </div>
-              </article>
-            </div>
+              </div>
+            </article>
           </div>
+        </div>
 
-          <!-- 1st window -->
-          <div class="parallax"></div>
+        <!-- 1st window -->
+        <div class="parallax"></div>
 
-          <div class="columns">
-            <div class="column">
-              <img class="techImages" src="./images/html.png" />
-              <h1>HTML</h1>
-              <p>
-                Heavy Knowledge of basic and advance HTML5 syntax, all from
-                paragraphs, links, forms, media to more advanced features such
-                as ASP.NET Razor Syntax. Created HTML emails and tested
-                functionality across multiple email providers with various tools
-                such as Firebase. An Understanding how to create custom
-                attributes using data-*. Keen understanding on how to build HTML
-                documents semantically and keep within ADA Rules and any
-                compliance&nbsp;required.
-              </p>
-            </div>
-            <div class="column">
-              <img class="techImages" src="./images/css.png" />
-              <h1>FRONT-END</h1>
-              <p>
-                Knowledge of various frameworks such as but not limited to
-                Bulma, Bootstrap, ZURB Foundation and Materialize. Ability to
-                use Sass to build websites based on mockups and prototypes.
-                Optimized images with Photoshop and Illustrator. Worked within
-                UX/UI design tools including XD, Sketch and Figma. Integrated
-                websites with social networks & SVG animations to provide
-                details and style, usability to&nbsp;websites.
-              </p>
-            </div>
-            <div class="column">
-              <img class="techImages" src="./images/javascript.png" />
-              <h1>BACK-END</h1>
-              <p>
-                Various experience's using a wide range of back-end tools and
-                languages successfully such as JavaScript, C#, Express.js, REST
-                API, Node.js, MySQL, REACT.js, and VUE.js. Heavy knowledge in
-                Asynchronous programming, writing cross-browser code, React JSX,
-                Hooks & components. Virtual DOM manipulation, testing/debugging.
-                Server side knowledge on how to make calls and responses to and
-                from Databases&nbsp;&&nbsp;Servers.
-              </p>
-            </div>
+        <div class="columns">
+          <div class="column">
+            <img class="techImages" src="./images/html.png" />
+            <h1>HTML</h1>
+            <p>
+              Heavy Knowledge of basic and advance HTML5 syntax, all from
+              paragraphs, links, forms, media to more advanced features such
+              as ASP.NET Razor Syntax. Created HTML emails and tested
+              functionality across multiple email providers with various tools
+              such as Firebase. An Understanding how to create custom
+              attributes using data-*. Keen understanding on how to build HTML
+              documents semantically and keep within ADA Rules and any
+              compliance&nbsp;required.
+            </p>
           </div>
-
-          <!-- second window -->
-          <div class="parallax"></div>
-
-          <div class="columns">
-            <div class="column">
-              <p>
-                architecto officia at voluptas. Lorem ipsum, dolor sit amet
-                consectetur adipisicing elit. Asperiores error quos quis vitae!
-                Cumque quam qui, sint perferendis magni natus amet minus
-                voluptatum, beatae modi ad. Eveniet cupiditate ab repudiandae.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Voluptate officiis deleniti cum provident et possimus
-                necessitatibus deserunt incidunt, error vel inventore, quis non
-                saepe. Nobis delectus quidem consequatur ut repellat!
-              </p>
-            </div>
-            <div class="column">
-              <p>
-                architecto officia at voluptas. Lorem ipsum, dolor sit amet
-                consectetur adipisicing elit. Asperiores error quos quis vitae!
-                Cumque quam qui, sint perferendis magni natus amet minus
-                voluptatum, beatae modi ad. Eveniet cupiditate ab repudiandae.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Voluptate officiis deleniti cum provident et possimus
-                necessitatibus deserunt incidunt, error vel inventore, quis non
-                saepe. Nobis delectus quidem consequatur ut repellat!
-              </p>
-            </div>
+          <div class="column">
+            <img class="techImages" src="./images/css.png" />
+            <h1>FRONT-END</h1>
+            <p>
+              Knowledge of various frameworks such as but not limited to
+              Bulma, Bootstrap, ZURB Foundation and Materialize. Ability to
+              use Sass to build websites based on mockups and prototypes.
+              Optimized images with Photoshop and Illustrator. Worked within
+              UX/UI design tools including XD, Sketch and Figma. Integrated
+              websites with social networks & SVG animations to provide
+              details and style, usability to&nbsp;websites.
+            </p>
           </div>
-          <!-- third window -->
-          <div class="parallax"></div>
-          <div class="columns">
-            <div class="column">
-              <p>
-                architecto officia at voluptas. Lorem ipsum, dolor sit amet
-                consectetur adipisicing elit. Asperiores error quos quis vitae!
-                Cumque quam qui, sint perferendis magni natus amet minus
-                voluptatum, beatae modi ad. Eveniet cupiditate ab repudiandae.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Voluptate officiis deleniti cum provident et possimus
-                necessitatibus deserunt incidunt, error vel inventore, quis non
-                saepe. Nobis delectus quidem consequatur ut repellat!
-              </p>
-            </div>
-            <div class="column">
-              <p>
-                architecto officia at voluptas. Lorem ipsum, dolor sit amet
-                consectetur adipisicing elit. Asperiores error quos quis vitae!
-                Cumque quam qui, sint perferendis magni natus amet minus
-                voluptatum, beatae modi ad. Eveniet cupiditate ab repudiandae.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Voluptate officiis deleniti cum provident et possimus
-                necessitatibus deserunt incidunt, error vel inventore, quis non
-                saepe. Nobis delectus quidem consequatur ut repellat!
-              </p>
-            </div>
+          <div class="column">
+            <img class="techImages" src="./images/javascript.png" />
+            <h1>BACK-END</h1>
+            <p>
+              Various experience's using a wide range of back-end tools and
+              languages successfully such as JavaScript, C#, Express.js, REST
+              API, Node.js, MySQL, REACT.js, and VUE.js. Heavy knowledge in
+              Asynchronous programming, writing cross-browser code, React JSX,
+              Hooks & components. Virtual DOM manipulation, testing/debugging.
+              Server side knowledge on how to make calls and responses to and
+              from Databases&nbsp;&&nbsp;Servers.
+            </p>
+          </div>
+        </div>
+
+        <!-- second window -->
+        <div class="parallax"></div>
+
+        <div class="columns">
+          <div class="column">
+            <p>
+              architecto officia at voluptas. Lorem ipsum, dolor sit amet
+              consectetur adipisicing elit. Asperiores error quos quis vitae!
+              Cumque quam qui, sint perferendis magni natus amet minus
+              voluptatum, beatae modi ad. Eveniet cupiditate ab repudiandae.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptate officiis deleniti cum provident et possimus
+              necessitatibus deserunt incidunt, error vel inventore, quis non
+              saepe. Nobis delectus quidem consequatur ut repellat!
+            </p>
+          </div>
+          <div class="column">
+            <p>
+              architecto officia at voluptas. Lorem ipsum, dolor sit amet
+              consectetur adipisicing elit. Asperiores error quos quis vitae!
+              Cumque quam qui, sint perferendis magni natus amet minus
+              voluptatum, beatae modi ad. Eveniet cupiditate ab repudiandae.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptate officiis deleniti cum provident et possimus
+              necessitatibus deserunt incidunt, error vel inventore, quis non
+              saepe. Nobis delectus quidem consequatur ut repellat!
+            </p>
+          </div>
+        </div>
+        <!-- third window -->
+        <div class="parallax"></div>
+        <div class="columns">
+          <div class="column">
+            <p>
+              architecto officia at voluptas. Lorem ipsum, dolor sit amet
+              consectetur adipisicing elit. Asperiores error quos quis vitae!
+              Cumque quam qui, sint perferendis magni natus amet minus
+              voluptatum, beatae modi ad. Eveniet cupiditate ab repudiandae.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptate officiis deleniti cum provident et possimus
+              necessitatibus deserunt incidunt, error vel inventore, quis non
+              saepe. Nobis delectus quidem consequatur ut repellat!
+            </p>
+          </div>
+          <div class="column">
+            <p>
+              architecto officia at voluptas. Lorem ipsum, dolor sit amet
+              consectetur adipisicing elit. Asperiores error quos quis vitae!
+              Cumque quam qui, sint perferendis magni natus amet minus
+              voluptatum, beatae modi ad. Eveniet cupiditate ab repudiandae.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptate officiis deleniti cum provident et possimus
+              necessitatibus deserunt incidunt, error vel inventore, quis non
+              saepe. Nobis delectus quidem consequatur ut repellat!
+            </p>
           </div>
         </div>
       </div>
     </div>
-    <!-- content -->
-    <footer class="footer">
-      <div class="content has-text-centered">
-          <p>
-              <strong>Portfolio</strong> by <a href="https://www.linkedin.com/in/jorge-lopez-895307194/">Jorge A.
-                  Lopez</a>.
-          </p>
-          <p>Phone: 480-601-6292 / Email: Jorgelopez5252@gmail.com</p>
-          <p><a target="_blank" href="https://github.com/Jorgelopez5252">GitHub</a> / <a target="_blank"
-                  href="https://www.linkedin.com/in/jorge-lopez-895307194/">LinkedIn</a></p>
+  </div>
+  <!-- content -->
+  <footer class="footer">
+    <div class="content has-text-centered">
+      <p>
+        <strong>Portfolio</strong> by <a href="https://www.linkedin.com/in/jorge-lopez-895307194/">Jorge A.
+          Lopez</a>.
+      </p>
+      <p>Phone: 480-601-6292 / Email: Jorgelopez5252@gmail.com</p>
+      <p><a target="_blank" href="https://github.com/Jorgelopez5252">GitHub</a> / <a target="_blank"
+          href="https://www.linkedin.com/in/jorge-lopez-895307194/">LinkedIn</a></p>
 
 
-      </div>
+    </div>
   </footer>
-  </body>
+</body>
+
 </html>

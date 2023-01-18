@@ -8,7 +8,7 @@ html{
 
 .parallax {
     /* The image used */
-    background-image: url("https://www.gannett-cdn.com/-mm-/041dfe0f345aec31389b619a9702c21b3dde1a03/c=0-79-1400-870/local/-/media/2016/03/16/Phoenix/Phoenix/635937398680031940-0326-best-az-sunsets-5.jpg");
+    background-image: url("https://cdn.gamedevmarket.net/wp-content/uploads/20191203192024/Desert.png");
   
     /* Set a specific height */
     min-height: 500px; 
@@ -24,6 +24,10 @@ html{
     font-size: 45px;
     text-align: center;
     font-family: 'Poppins', sans-serif;
+  }
+
+  h2 {
+    text-align: center;
   }
 
   p {
