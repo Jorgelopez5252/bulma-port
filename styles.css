@@ -19,3 +19,32 @@ html{
     background-repeat: no-repeat;
     background-size: cover;
   }
+
+  h1 {
+    font-size: 45px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  p {
+    font-family: 'Poppins', sans-serif;
+  }
+
+  #profilePic {  
+    max-width: 100%;
+  }
+
+  #headerOne{
+    margin-top: 25px;
+  }
+
+  #knownTech {
+    margin-top: 50px;
+  }
+
+  .techImages {
+    padding: 25px;
+    width: 50%;
+    display: flex;
+    margin: auto;
+  }
